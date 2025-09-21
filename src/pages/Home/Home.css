@@ -1,14 +1,13 @@
 .hero {
   position: relative;
 }
-
+/* Without this, absolute elements would position relative to the page instead of the hero section. */
 .banner-img {
   width: 100%;
   display: block;
 }
 
 .hero::after {
-  content: "";
   position: absolute;
   top: 0;
   left: 0;

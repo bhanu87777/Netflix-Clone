@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const TitleCards = ({ title, category }) => {
   const [apiData, setApiData] = useState([]);
   const cardsRef = useRef();
-
+  // useRef: This makes it perfect for storing DOM nodes or mutable values that don’t affect the UI.
   const options = {
     method: "GET",
     headers: {
