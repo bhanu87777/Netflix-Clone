@@ -8,16 +8,24 @@ import caret_icon from "../../assets/caret_icon.svg";
 import { logout } from "../../firebase";
 
 const Navbar = () => {
-  const navRef = useRef();
+  const navRef = useRef(null);
 
   useEffect(() => {
-    window.addEventListener("scroll", () => {
+    const handleScroll = () => {
+      if (!navRef.current) return;
       if (window.scrollY >= 80) {
         navRef.current.classList.add("nav-dark");
       } else {
         navRef.current.classList.remove("nav-dark");
       }
-    });
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    // cleanup on unmount
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
   }, []);
 
   return (
@@ -41,13 +49,7 @@ const Navbar = () => {
           <img src={profile_img} alt="" className="profile" />
           <img src={caret_icon} alt="" />
           <div className="dropdown">
-            <p
-              onClick={() => {
-                logout();
-              }}
-            >
-              Sign Out
-            </p>
+            <p onClick={logout}>Sign Out</p>
           </div>
         </div>
       </div>
