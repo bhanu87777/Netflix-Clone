@@ -108,36 +108,9 @@ npm run preview</code></pre>
     <img src="Images/cards.png" alt="Rows screenshot" class="screenshot" style="max-width:48%; display:inline-block;" />
   </p>
 
-  <h2>🧪 Notes & Tips</h2>
-  <ul>
-    <li>If rows snap or overflow on mobile, add <code>overflow-x:auto; -webkit-overflow-scrolling:touch;</code>.</li>
-    <li>Use IntersectionObserver to lazy-load posters and improve performance.</li>
-    <li>For trailers, embed YouTube with the player params to autoplay muted in modal for a Netflix-like feel.</li>
-    <li>Consider using Firebase Auth for a simple sign-in flow (or mock auth while developing).</li>
-  </ul>
-
-  <h2>🤝 Contributing</h2>
-  <p class="small">Pull requests welcome! Suggested workflow:</p>
-  <ol>
-    <li>Fork the repo → create a feature branch → open a PR</li>
-    <li>Follow the code style in <code>src/styles/global.css</code> (or Tailwind utility classes)</li>
-  </ol>
-
-  <h2>📜 License</h2>
-  <p class="small">MIT License — feel free to use this template for learning, demos, portfolios, and prototypes. Replace assets with your own or properly licensed images when deploying publicly.</p>
-
   <h2>✅ Conclusion</h2>
   <p>
     The <b>Netflix-Clone</b> is a front-end focused project that helps you learn responsive layout, state management, lazy-loading, and media embedding. It's a great portfolio piece — customize the UI, hook up a real API, and deploy to Vercel or GitHub Pages to show it off.
   </p>
-
-  <hr/>
-
-  <p class="center small">
-    <span class="badge">Copy Mode</span>
-    To copy: save this file as <code>README.html</code> in your repo root and edit the placeholders (API keys, screenshots, links).
-  </p>
-
-  <p class="small" style="margin-top:14px;">Made with ❤️ — update the README with your project-specific commands and links (live demo, screenshots, and license) before publishing.</p>
 </body>
 </html>
