@@ -103,9 +103,9 @@ npm run preview</code></pre>
 
   <h2>📸 Screenshots</h2>
   <p class="center">
-    <img src="Images/login.png.png" alt="Homepage screenshot" class="screenshot" />
-    <img src="Images/home_page.png.png" alt="Modal trailer screenshot" class="screenshot" style="max-width:48%; display:inline-block; margin-right:6px;" />
-    <img src="Images/cards.png.png" alt="Rows screenshot" class="screenshot" style="max-width:48%; display:inline-block;" />
+    <img src="Images/login.png" alt="Homepage screenshot" class="screenshot" />
+    <img src="Images/home_page.png" alt="Modal trailer screenshot" class="screenshot" style="max-width:48%; display:inline-block; margin-right:6px;" />
+    <img src="Images/cards.png" alt="Rows screenshot" class="screenshot" style="max-width:48%; display:inline-block;" />
   </p>
 
   <h2>🧪 Notes & Tips</h2>
